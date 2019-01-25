@@ -18,7 +18,6 @@ public class MyGeneral_basic {
         // 通用识别url
         String otherHost = "https://aip.baidubce.com/rest/2.0/ocr/v1/general_basic";
         // 本地图片路径
-//        String filePath = "E:\\工作记录\\素材\\华泰5份章-images\\img18.jpg";
         String filePath = "E:\\工作记录\\素材\\test2.jpg";
         try {
             byte[] imgData = FileUtil.readFileByBytes(filePath);

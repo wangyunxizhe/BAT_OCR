@@ -33,7 +33,7 @@ public class ImgDpi {
     }
 
     public static void main(String[] args) throws IOException, ImageReadException {
-        File img = new File("E:\\工作记录\\素材\\华泰5份章-images\\img18.jpg");
+        File img = new File("E:\\工作记录\\素材\\test2.jpg");
         byte[] imgbyte = File2byte(img);
 //        ImageInfo imageInfo = Sanselan.getImageInfo(img);
         ImageInfo imageInfo = Sanselan.getImageInfo(imgbyte);
