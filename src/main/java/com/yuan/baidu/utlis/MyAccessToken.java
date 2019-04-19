@@ -1,6 +1,7 @@
-package com.yuan.utlis;
+package com.yuan.baidu.utlis;
 
 import org.springframework.boot.configurationprocessor.json.JSONObject;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
@@ -9,7 +10,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by wangy on 2018/11/7.
+ * baidu获取Token类，Token过期时使用该类获取新的Token
  */
 public class MyAccessToken {
 
@@ -18,7 +19,7 @@ public class MyAccessToken {
      *
      * @return 返回示例：
      * {
-     * "access_token": "24.460da4889caad24cccdb1fea17221975.2592000.1491995545.282335-1234567",
+     * "access_token": "24.77b1d7c0243ae163b49fcb124b2c4865.2592000.1558233840.282335-14707581",
      * "expires_in": 2592000
      * }
      */

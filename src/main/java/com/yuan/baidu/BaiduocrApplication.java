@@ -1,4 +1,4 @@
-package com.yuan;
+package com.yuan.baidu;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

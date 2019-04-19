@@ -1,4 +1,4 @@
-package com.yuan;
+package com.yuan.baidu;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,8 +1,9 @@
-package com.yuan.controller;
+package com.yuan.baidu.controller;
 
-import com.yuan.utlis.Base64Util;
-import com.yuan.utlis.FileUtil;
-import com.yuan.utlis.HttpUtil;
+import com.yuan.baidu.utlis.Base64Util;
+import com.yuan.baidu.utlis.HttpUtil;
+import com.yuan.baidu.utlis.FileUtil;
+
 import java.net.URLEncoder;
 
 /**
@@ -18,7 +19,7 @@ public class MyGeneral_basic {
         // 通用识别url
         String otherHost = "https://aip.baidubce.com/rest/2.0/ocr/v1/general_basic";
         // 本地图片路径
-        String filePath = "E:\\工作记录\\素材\\test2.jpg";
+        String filePath = "E:\\工作记录\\素材\\手写字图片\\6.jpg";
         try {
             byte[] imgData = FileUtil.readFileByBytes(filePath);
             String imgStr = Base64Util.encode(imgData);
@@ -26,7 +27,7 @@ public class MyGeneral_basic {
             /**
              * 线上环境access_token有过期时间， 客户端可自行缓存，过期后重新获取。
              */
-            String accessToken = "24.02ccc2925be77e63405fc9d2165af5da.2592000.1544164303.282335-14707581";
+            String accessToken = "24.77b1d7c0243ae163b49fcb124b2c4865.2592000.1558233840.282335-14707581";
             String result = HttpUtil.post(otherHost, accessToken, params);
             System.out.println(result);
             System.out.println("耗时：" + (System.currentTimeMillis() - start) / 1000f + "秒");

@@ -1,4 +1,4 @@
-package com.yuan.utlis;
+package com.yuan.baidu.utlis;
 
 /**
  * Base64 工具类

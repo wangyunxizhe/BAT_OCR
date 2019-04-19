@@ -1,4 +1,4 @@
-package com.yuan.utlis;
+package com.yuan.baidu.utlis;
 
 import java.io.BufferedReader;
 import java.io.DataOutputStream;
